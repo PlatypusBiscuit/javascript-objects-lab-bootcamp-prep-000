@@ -1,1 +1,1 @@
-var recipes = { cool, "beans" }
+var recipes = {cool: "beans"}
