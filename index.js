@@ -9,7 +9,7 @@ Object.assign(object, key, value)
 }
 
 function deleteFromObjectByKey(object, key) {
-var objMod = object;
+var objMod = Object.assign({}, object);
 delete objMod[key];
 return objMod;
 }
